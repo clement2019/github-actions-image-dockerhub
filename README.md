@@ -1,4 +1,4 @@
-### project title 
+### project title: Gihub Actins Docker image Dockerhub
 github-actions--docker-image-dockerhub
 
 #### Project overview
@@ -61,8 +61,9 @@ COPY ./index.html /usr/local/apache2/htdocs/
 
 
 
-### push the code to giuhub to trigger gihub actions
+### push the code to github to trigger github actions
 
+<img width="1626" height="654" alt="Image" src="https://github.com/user-attachments/assets/2ab6376e-3359-4970-82a1-fb1dd5c4d52f" />
 
 **📌 Step 1: Create IAM User**
 Create **IAM user** and attached **AdministratorAccess** policy.
@@ -86,18 +87,31 @@ aws sts get-caller-identity
 ```
 If correctly configured, you should see your AWS **Account ID, User ID, and ARN**
 
-**📌 Step 3: push code to dockerhube**
+**📌 Step 2: click on githubactions**
+
+<img width="2562" height="1096" alt="Image" src="https://github.com/user-attachments/assets/3285d231-7c7f-4e6b-a749-cb15c76227a6" />
+
+
+
+**📌 Step 3: Github actions troiggers output**
+
+<img width="2546" height="938" alt="Image" src="https://github.com/user-attachments/assets/324135c7-b519-48f9-8e32-0c796f5a20f2" />
+
+
+
+**📌 Step 4:  Enter Dockerhub crentials in envionment variabnle s of github**
 Before applying the configure dockerhub credentials configuration:
 
+<img width="2484" height="1344" alt="Image" src="https://github.com/user-attachments/assets/ea65b53d-2588-41e5-a916-f18f2c10dac7" />
 
-*📌 Step 3: Initialize image build**
-Next, initialize the image in **root directory** where `dockerfile` is located.
+**📌 Step 5: Enter the Credentials**
 
+<img width="2422" height="1272" alt="Image" src="https://github.com/user-attachments/assets/cf897580-5279-40f2-8a03-445ba1dc3155" />
 
-**📌 Step 7: push image**
+**📌 Step 7: Code workkkfile**
 
+<img width="2456" height="1374" alt="Image" src="https://github.com/user-attachments/assets/7b869b95-b93c-451a-8dff-f259e27efe44" />
 
-**📌 Step 9: final output **
+**📌 Step 9: final output of the pushed docker image on Dockergub Repo **
 
-
----
+<img width="2562" height="978" alt="Image" src="https://github.com/user-attachments/assets/b8125209-6792-4053-9e3d-2b548f1d4410" />
